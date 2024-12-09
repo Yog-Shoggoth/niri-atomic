@@ -57,7 +57,7 @@ modules:
     fonts:
       nerd-fonts:
         - JetBrainsMono
-        - Iosevka Nerd Font
+        - IosevkaNerdFont
         - NerdFontsSymbolsOnly
 
   - type: default-flatpaks
