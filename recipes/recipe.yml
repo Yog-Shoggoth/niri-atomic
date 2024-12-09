@@ -5,10 +5,6 @@ name: niri-atomic
 # description will be included in the image's metadata
 description: Build using ublue base-main image and layering in niri (https://github.com/YaLTeR/niri) as the window manager.
 
-# the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/base-main
-image-version: latest # latest is also supported if you want new updates ASAP
-
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
@@ -48,17 +44,6 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-  
-  - type: brew
-    nofile-limits: true # increase nofile limits
-    brew-analytics: false # disable telemetry
-
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - Iosevka
-        - JetBrainsMono
-        - NerdFontsSymbolsOnly
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -73,5 +58,5 @@ modules:
         - com.github.tchx84.Flatseal
       remove:
       # - org.gnome.eog
-      
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
