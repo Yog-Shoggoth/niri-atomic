@@ -26,6 +26,8 @@ modules:
       # WM
       - niri
       - xwayland-satellite
+      - polkit
+      - xfce-polkit
       #- xdg-desktop-portal-gnome
       # qemu etc.
       - libvirt-daemon-config-network
