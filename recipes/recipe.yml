@@ -59,7 +59,7 @@ modules:
       nerd-fonts:
         - Iosevka
         - JetBrainsMono
-        - NerdFontSymbolsOnly
+        - NerdFontsSymbolsOnly
       google-fonts:
         - Roboto
         - Open Sans
