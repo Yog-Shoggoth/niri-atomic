@@ -57,9 +57,12 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
-        - JetBrainsMono
         - Iosevka
-        - NerdFontsSymbolsOnly
+        - JetBrainsMono
+        - NerdFontSymbolsOnly
+      google-fonts:
+        - Roboto
+        - Open Sans
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
