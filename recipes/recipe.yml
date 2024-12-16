@@ -29,10 +29,10 @@ modules:
       - polkit
       - xfce-polkit
       #- xdg-desktop-portal-hyprland
-      - hyprlang
-      - hyprlock
-      - hyprutils
-      - hypridle
+      #- hyprlang
+      #- hyprlock
+      #- hyprutils
+      #- hypridle
       # qemu etc.
       - libvirt-daemon-config-network
       - libvirt-daemon-kvm
