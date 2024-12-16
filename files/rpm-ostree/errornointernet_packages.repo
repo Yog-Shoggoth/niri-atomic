@@ -9,4 +9,4 @@ gpgkey=https://download.copr.fedorainfracloud.org/results/errornointernet/packag
 repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
-includepkgs=xwayland-satellite hyprlock
+includepkgs=xwayland-satellite
