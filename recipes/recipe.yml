@@ -29,7 +29,7 @@ modules:
       - xwayland-satellite
       - polkit
       - xfce-polkit
-      #- xdg-desktop-portal-hyprland
+      - xdg-desktop-portal-hyprland
       - hyprlang
       - hyprlock
       - hyprutils
